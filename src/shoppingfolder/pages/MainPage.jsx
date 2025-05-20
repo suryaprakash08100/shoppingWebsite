@@ -7,8 +7,8 @@ import WomenCollection from '../components/WomenCollection'
 import { Gents,Ladies } from '../data'
 
 const MainPage = () => {
-    const [gents, setGents] = useState(Gents)
-    const [ladies, setLadies] = useState(Ladies)
+    const [gents] = useState(Gents)
+    const [ladies] = useState(Ladies)
     console.log(Gents)
     console.log(Ladies)
   return (
